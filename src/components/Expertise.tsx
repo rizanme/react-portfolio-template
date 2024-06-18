@@ -49,8 +49,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Platform Engineering</h3>
+                    <p>As a Platform Engineer, I have architected and maintained scalable, resilient infrastructure across multiple cloud environments, leveraging cutting edge technologies. I possess deep expertise in the full lifecycle of platform engineering, from design and deployment to monitoring and optimization, ensuring high availability and performance for critical applications.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -62,7 +62,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>As a DevOps Engineer, I have orchestrated and refined continuous integration and delivery pipelines, ensuring scalable, fault-tolerant systems across diverse platforms. My expertise encompasses the entire DevOps lifecycle, from code integration, testing, and deployment to infrastructure automation and performance tuning, guaranteeing the reliability and efficiency of critical deployments.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +73,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>GenAI</h3>
+                    <p>Maximize the full potential of Generative AI within your infrastructure. As a Platform Engineer, my expertise lies in architecting and implementing robust, GenAI-enhanced platforms that drive efficiency and foster intelligent decision-making processes.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
