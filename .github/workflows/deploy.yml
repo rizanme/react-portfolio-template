@@ -21,6 +21,12 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
+    - uses: actions/checkout@v2
+    - name: Set up Git user
+      run: |
+        git config --global user.email "rizanme@gmail.com"
+        git config --global user.name "rizanme"  
+
     - name: Build Project
       run: npm run deploy
 
