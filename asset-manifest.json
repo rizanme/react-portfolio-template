@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-template/static/css/main.f19fb152.css",
+    "main.js": "/react-portfolio-template/static/js/main.2d29a8f8.js",
+    "static/js/453.b05d8aa5.chunk.js": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js",
+    "static/media/bg-light.png": "/react-portfolio-template/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/mock03.png": "/react-portfolio-template/static/media/mock03.56c15df5947e63708d77.png",
+    "static/media/bg-dark.png": "/react-portfolio-template/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/rizan.jpg": "/react-portfolio-template/static/media/rizan.741aad6c81f2eced2c3f.jpg",
+    "static/media/mock08.png": "/react-portfolio-template/static/media/mock08.da86412c81698ced0e39.png",
+    "static/media/mock09.png": "/react-portfolio-template/static/media/mock09.c3b207f6d914678d59bb.png",
+    "static/media/mock06.png": "/react-portfolio-template/static/media/mock06.d72629c15f1103aa604a.png",
+    "static/media/mock10.png": "/react-portfolio-template/static/media/mock10.d9d57b7677f961b77685.png",
+    "static/media/mock04.png": "/react-portfolio-template/static/media/mock04.618a18c0aee189b6691a.png",
+    "static/media/mock07.png": "/react-portfolio-template/static/media/mock07.1a4a4535cee4fe9c1728.png",
+    "static/media/mock05.png": "/react-portfolio-template/static/media/mock05.71f7720023428deb0d42.png",
+    "index.html": "/react-portfolio-template/index.html",
+    "main.f19fb152.css.map": "/react-portfolio-template/static/css/main.f19fb152.css.map",
+    "main.2d29a8f8.js.map": "/react-portfolio-template/static/js/main.2d29a8f8.js.map",
+    "453.b05d8aa5.chunk.js.map": "/react-portfolio-template/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f19fb152.css",
+    "static/js/main.2d29a8f8.js"
+  ]
+}
