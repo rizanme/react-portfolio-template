@@ -1,38 +1,32 @@
-name: Deploy the portfolio to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - dev  # Change this to your default branch if it's not 'main'
+      - dev # Change this to the branch you want to trigger the deployment from
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+    
     steps:
-    - name: Checkout Source Code
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Setup Node.js Environment
-      uses: actions/setup-node@v2
-      with:
-        node-version: '21.6.1'  # Use the node version that matches your development environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # Specify your Node.js version
 
-    - name: Install Dependencies
-      run: npm install
+      - name: Install Dependencies
+        run: npm install
 
-    - uses: actions/checkout@v2
-    - name: Set up Git user
-      run: |
-        git config --global user.email "rizanme@gmail.com"
-        git config --global user.name "rizanme"  
+      - name: Build Project
+        run: npm run build
 
-    - name: Build Project
-      run: npm run deploy
-
-    - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.1.4
-      with:
-        branch: gh-pages  # The branch the action should deploy to.
-        folder: build  # The folder the action should deploy.
-        token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow.
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          # if your build output directory is different, adjust accordingly
