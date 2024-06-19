@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js Environment
       uses: actions/setup-node@v2
       with:
-        node-version: '20'  # Use the node version that matches your development environment
+        node-version: '21.6.1'  # Use the node version that matches your development environment
 
     - name: Install Dependencies
       run: npm install
